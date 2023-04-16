@@ -1,0 +1,21 @@
+{
+  "name": "TournamentMode",
+  "description": "Reset server settings to tournament mode on the play-cs.com",
+  "version": "1.1.1",
+  "author": "st4r",
+  "manifest_version": 3,
+  "icons": {
+    "16": "/images/img16.png",
+    "32": "/images/img32.png",
+    "48": "/images/img48.png",
+    "128": "/images/img128.png"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://play-cs.com/*/myservers"],
+  "content_scripts": [
+    {
+      "js": ["init.js"],
+      "matches": ["https://play-cs.com/*/myservers"]
+    }
+  ]
+}
