@@ -1,5 +1,5 @@
 # TournamentMode
-Chrome/Brave browser extension. Reset server settings to tournament mode on the www.play-cs.com (CS 1.6 in browser) by pressing one button.
+Chrome/Brave browser extension. Reset server settings to tournament mode (5 vs 5) on the www.play-cs.com (CS 1.6 in browser) by pressing one button.
 
 ![TournamentMode](https://user-images.githubusercontent.com/53916002/232326705-113371aa-4dad-4b70-bb58-1e6ec2af3252.png)
 
