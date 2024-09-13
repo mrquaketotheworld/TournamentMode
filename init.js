@@ -37,6 +37,7 @@
       for (let k = 0; k < varsCheckboxes.length; k++) {
         varsCheckboxes[k].checked = false;
       }
+      settings.querySelector(`input[id="server[${serverID}][cvars][mp_clanwar]"]`).checked = true;
       settings.querySelector(`input[id="server[${serverID}][cvars][bonus_slot]"]`).checked = true;
       settings.querySelector(`input[id="server[${serverID}][cvars][mp_friendlyfire]"]`).checked = true;
       settings.querySelector(`select[name="server[${serverID}][cvars][minimal_skill]"]`).value = '0';
